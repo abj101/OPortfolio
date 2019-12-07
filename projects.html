@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Projects</title>
-    <link href="myPortfolio.css" rel="stylesheet" type="text/css">
-    <link href="bootstrap-4.1.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--For mobile sites-->
-  </head>
-  <body>
-    <div class="pos-f-t sticky-top"><!--This is my navigation bar, this part is the collapse which brings in the Contact Me using a little bit of JS-->
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4 contact"><!--Sets it to dark and spaces it-->
-          <h4 class="contact-t"> Contact Me: Dublin, CA</h4>
-          <div class="container logo">
-            <a href="mailto:ayushbj1@gmail.com">  <img class="img-fluid logo-t" src="Images/mail.png" alt="Mail Logo"></a>
-            <a href="https://github.com/abj101">  <img class="img-fluid logo-t" src="Images/git.png" alt="git Logo"></a>
-            <a href="https://www.dublin.k12.ca.us/dhs">  <img class="img-fluid logo-t" src="Images/DHS.png" alt="DHS Logo"></a>
-          </div>
-        </div>
-      </div>
-        <nav class="sticky-top nav nav-fill navbar navbar-dark bg-dark"> <!--This is the nav bar for all of the parts of my website-->
-          <a class="nav-item nav-link active" href="new_index.html">Home</a>
-          <a class="nav-item nav-link" href="Bandopadhyay_AboutMe.html">About Me</a>
-          <a class="nav-item nav-link" href="resume.html">Resume</a>
-          <a class="nav-item nav-link" href="projects.html">Projects</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span><!--This is my button which is toggling the collapse-->
-          </button>
-        </nav>
-      </div>
-      <div class="jumbotron">
-        <div class="container about">
-          <h1 class="text-center">Projects</h1><!--Title for Projects-->
-          <h5 class="text-center">2018-2019</h5>
-        </div>
-      </div>
-      <div class="container">
+	<head>
+		<title>Ayush Bandopadhyay's Online Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><bold><strong><a href="index.html">Ayush</a></strong>B</bold></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="resume.html">Resume</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major special">
+						<h2>Projects</h2>
+						<p>Here are some projects from Computer Science and Honors Principles of Engineering</p>
+					</header>
+                <div class="container">
         <div class="row">
           <section>
             <h3 class="pt-5 pb-1">Scratch Project:</h3><!--Titles-->
@@ -82,9 +78,30 @@
           </div>
         </div>
       </div>
-  </body>
-  <!--Links to JS in botstrap for just nav bar-->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-facebook"></a></li>
+						<li><a href="#" class="icon fa-twitter"></a></li>
+						<li><a href="#" class="icon fa-instagram"></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
