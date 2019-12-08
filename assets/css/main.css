@@ -3289,3 +3289,11 @@
   clear: both;
   display: table;
 }
+
+.column {
+  float: left;
+  width: 200px;
+  height: auto;
+  padding: 5px;
+
+}
