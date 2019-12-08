@@ -3292,9 +3292,8 @@
 
 .column1 {
   float: left;
-  width: 25%;
-  height: 25%;
+  width: 100px;
+  height: 100px;
   padding: 5px;
-  object-fit:scale-down;
 
 }
